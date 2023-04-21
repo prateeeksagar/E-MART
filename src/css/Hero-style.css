@@ -1,0 +1,28 @@
+.hero-block {
+  background-image: url("https://react-ecommerce-app-with-redux.netlify.app/assets/slider.jpeg");
+  background-size: cover;
+  height: 75vh;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading-one {
+  margin: 0px;
+  font-size: 20px;
+  margin-left: 101px;
+}
+
+.para-one {
+  margin: 0px;
+  font-size: 75px;
+  margin-left: 101px;
+  font-weight: lighter;
+}
+
+.para-two {
+  margin: 0px;
+  font-size: 20px;
+  margin-left: 101px;
+}

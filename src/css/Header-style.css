@@ -1,0 +1,41 @@
+.header-block {
+  display: flex;
+  color: black;
+  background-color: #d2d2d2;
+  /* position: fixed;
+  width: 100%;
+  z-index: 1; */
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  margin-left: 32px;
+}
+
+.active {
+  /* background-color:; */
+  color: black;
+  font-size: 21px;
+  margin: 18px;
+  text-decoration: none;
+}
+.navbuy {
+  /* border: 1px solid aliceblue; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 20%;
+  margin-right: 8%;
+  flex-wrap: wrap;
+}
+
+.login-btn {
+  font-size: 23px;
+  /* margin: 6px; */
+  padding: 10px;
+  color: black;
+
+  background-color: #e7e7e7;
+  border-radius: 9px;
+  border: 1px solid;
+}

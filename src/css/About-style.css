@@ -1,0 +1,17 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid aqua;
+  margin: auto;
+  width: 50%;
+  margin-top: 10%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 35%;
+}
+
+.about-section h1 {
+  font-size: 52px;
+  color: aqua;
+}

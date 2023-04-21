@@ -1,0 +1,89 @@
+/* ---------------------------------
+SHIMMER 
+------------------------------------- */
+.shimmer-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.shimmer {
+  width: 200px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 20px;
+}
+
+/* ---------------------------------------------
+ Checkout
+----------------------------------------------*/
+.checkout-page {
+  padding: 30px 20px;
+  border-top: 1px solid #dddddd;
+}
+
+.checkout-lists {
+  display: flex;
+  background-color: #f8f8f8;
+  border: 1px solid #dddddd;
+  padding: 10px;
+  margin: 10px 0;
+}
+.checkout-lists .checkout-image {
+  width: 200px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+.checkout-lists .checkout-desc {
+  width: calc(100% - 270px);
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.checkout-lists button {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* -----------------------------
+Cart
+-------------------------------- */
+.selected-product {
+  background-color: #d2d2d2;
+  display: flex;
+  flex-direction: row;
+  color: black;
+  margin: 60px;
+  border-radius: 10px;
+}
+
+.selected-product img {
+  height: 277px;
+  width: 277px;
+  margin: 37px;
+  border-radius: 10px;
+}
+.left-block {
+  display: flex;
+  flex-direction: column;
+  padding-left: 150px;
+}
+
+.left-block button {
+  font-size: 22px;
+  padding: 8px;
+  width: 45px;
+}
+.total-price {
+  font-size: 25px;
+  font-weight: lighter;
+}
+/* -----------------------
+Footer
+------------------------- */
+
+.footer {
+  text-align: center;
+  background-color: grey;
+}
